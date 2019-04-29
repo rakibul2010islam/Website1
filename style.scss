@@ -1,0 +1,64 @@
+// Resetting Browser
+*{
+	margin: 0;
+	padding: 0;
+}
+
+// variables
+
+$background: #eaeaea;
+
+
+
+.header-top{
+	background: $background;
+	height: 2rem;
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+	font-family: 'Raleway', sans-serif;
+}
+
+input{
+	border-radius: .8rem;
+	height: 1.4rem;
+	border: .04rem solid #5e5d5d;
+}
+
+.wrapper{
+	display: inline;
+	margin-left: 2rem;
+	position: relative;
+}
+
+.searchIcon{
+	position: absolute;
+  	top: .1rem;
+  	left: 9rem;
+  	padding: .25rem;
+  	border-radius: 50%;
+  	color: white;
+  	background: black;
+}
+
+nav{
+	background: #222222;
+	color: white;
+	font-size: 1.2rem;
+
+	.company{
+		float: left;
+		font-size: 2rem;
+		padding-left: 2rem;
+	}
+
+}
+
+.main-nav ul{
+	display: flex;
+	justify-content: space-between;
+	list-style: none;
+	margin-left: 10rem;
+
+}
+
