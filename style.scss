@@ -130,11 +130,22 @@ li.dropdown {
 }
 
 .sliderImages img{
-	max-width: 100%;
-  	height: auto;
+	width: 100%;
+	height: 79vh;
+	object-fit: contain;
+}
+
+.w3-button{
+	background: #cfc6b9;
 }
 
 // Media Query Starts ============================================
+@media (max-width: 1100px){
+	.sliderImages img{
+		height: auto;
+	}
+}
+
 @media (max-width: 950px){
 	nav{
 		display: block;
@@ -158,11 +169,11 @@ li.dropdown {
 	.dropbtn{
 		border-bottom: none;
 	}
-	
-	.sliderButtons{
-		padding-top: 2rem;
-		margin-top: 2rem;
+
+	.w3-button{
+		margin-top: 25rem;
 	}
+	
 }
 
 
@@ -170,5 +181,11 @@ li.dropdown {
 	.header-top{
 		flex-direction: column;
 		height: 7rem;
+	}
+}
+
+@media (max-width: 600px){
+	.w3-button{
+		margin-top: 20rem;
 	}
 }
