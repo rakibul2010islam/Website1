@@ -103,6 +103,54 @@ li.dropdown {
 .w3-button {
   background: #cfc6b9; }
 
+.quote {
+  font-size: 1.4rem;
+  padding: 5rem 5rem;
+  text-align: center; }
+
+/* Codes for fading line */
+hr {
+  border: 0;
+  height: 1px;
+  background-image: linear-gradient(to right, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0)); }
+
+.imageBoxes {
+  display: flex;
+  margin: 1rem 5rem; }
+
+.box {
+  display: flex;
+  flex-direction: column;
+  margin: 0 1rem; }
+
+.imageContainer1 {
+  background: url(computer.jpg);
+  height: 12rem;
+  width: 16.5rem;
+  background-size: cover;
+  background-position: center; }
+
+.imageContainer2 {
+  background: url(innovation.jpg);
+  height: 12rem;
+  width: 16.5rem;
+  background-size: cover;
+  background-position: center; }
+
+.imageContainer3 {
+  background: url(ipad.jpg);
+  height: 12rem;
+  width: 16.5rem;
+  background-size: cover;
+  background-position: center; }
+
+.imageContainer4 {
+  background: url(money.jpg);
+  height: 12rem;
+  width: 16.5rem;
+  background-size: cover;
+  background-position: center; }
+
 @media (max-width: 1100px) {
   .sliderImages img {
     height: auto; } }
@@ -133,6 +181,10 @@ li.dropdown {
     height: 7rem; } }
 @media (max-width: 600px) {
   .w3-button {
-    margin-top: 20rem; } }
+    margin-top: 20rem; }
+
+  .quote {
+    font-size: 1.3rem;
+    padding: 2.5rem 2.5rem; } }
 
 /*# sourceMappingURL=style.css.map */
