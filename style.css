@@ -164,7 +164,7 @@ hr {
 .midInfo a {
   text-decoration: none;
   color: #75b709;
-  padding-left: 15rem; }
+  margin-left: auto; }
 
 .infoIcons {
   display: flex;
@@ -189,6 +189,7 @@ hr {
 .profilePic {
   display: flex;
   flex-wrap: wrap;
+  justify-content: center;
   padding: 2rem 2rem 2rem 3rem; }
   .profilePic .midInfo {
     flex-basis: 100%; }
@@ -224,7 +225,10 @@ hr {
 
   .box {
     flex-basis: 40%;
-    padding: 1rem 0; } }
+    padding: 1rem 0; }
+
+  .sectionWrapper {
+    grid-template-columns: 100%; } }
 @media (max-width: 950px) {
   nav {
     display: block; }
@@ -256,6 +260,9 @@ hr {
 
   .quote {
     font-size: 1.3rem;
-    padding: 2.5rem 2.5rem; } }
+    padding: 2.5rem 2.5rem; }
+
+  .infoIcons .infoIconBox {
+    flex-basis: 100%; } }
 
 /*# sourceMappingURL=style.css.map */

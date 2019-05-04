@@ -216,7 +216,7 @@ hr{
 	a{
 		text-decoration: none;
 		color: #75b709;
-		padding-left: 15rem;
+		margin-left: auto;
 	}	
 }
 
@@ -258,6 +258,7 @@ hr{
 .profilePic{
 	display: flex;
 	flex-wrap: wrap;
+	justify-content: center;
 	.midInfo{
 		flex-basis: 100%;
 	}
@@ -311,6 +312,10 @@ hr{
 		flex-basis: 40%;
 		padding: 1rem 0;
 	}
+
+	.sectionWrapper{
+		grid-template-columns: 100%;
+	}
 }
 
 @media (max-width: 950px){
@@ -360,4 +365,11 @@ hr{
 		font-size: 1.3rem;
 		padding: 2.5rem 2.5rem;
 	}
+
+	.infoIcons{
+		.infoIconBox{
+			flex-basis: 100%;
+		}
+	}
+
 }
