@@ -15,3 +15,10 @@ function showDivs(n) {
   }
   x[slideIndex-1].style.display = "block"; 
 }
+
+// Showing date (Codes copied from Stackoverflow)
+n =  new Date();
+y = n.getFullYear();
+m = n.getMonth() + 1;
+d = n.getDate();
+document.getElementById("date").innerHTML = "Date: " + d + "/" + m + "/" + y;
